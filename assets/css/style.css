@@ -85,3 +85,19 @@ font-size: 3em;
 {
   color: red;
 }
+
+.buttons button
+{
+  background-color:var(--primary-color);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+
+  border-radius: 7px;
+}
+
+.buttons button:hover
+{
+  background-color: var(--primary-color-darker);
+}
